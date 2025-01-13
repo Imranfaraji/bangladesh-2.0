@@ -92,7 +92,7 @@
   .card-box-1, .card-box-2, .card-box-3{
     width: 400px;
     padding: 32px;
-    border-radius: 10px;
+    border-radius: 16px;
   }
 
   .card-box-1{
@@ -102,7 +102,7 @@
   }
 
   .card-box-2{
-    background: linear-gradient(45deg, #49ce92 20%, #4adb98 100%);
+    background: linear-gradient(45deg,  #53d699 100%, #92ebc3 20%);
 
   }
   .card-box-3{
@@ -122,11 +122,89 @@
   }
 
   .card-des{
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     opacity: 0.8;
     color: #0E0E0E;
+
+    margin-bottom: 36px;
   }
+
+  .card-btn-1{
+    padding: 11px 20px;
+    border: none;
+    background-color: #5490F5;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card-btn-1:hover{
+    background-color: #49ce92;
+  }
+
+  .card-btn-2{
+    padding: 11px 20px;
+    border: none;
+    background-color: #09A15C;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card-btn-2:hover{
+    background-color: #79bdeb;
+  }
+  .card-btn-3{
+    padding: 11px 20px;
+    border: none;
+    background-color:  #49ce92 ;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card-btn-3:hover{
+    background-color:  #FFC239;
+  }
+
+  .quote{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    padding: 20px ;
+    
+  }
+  .quote-inner{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+
+  }
+
+  .main-quote{
+    font-size: 12px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    line-height: 24px;
+    
+  }
+
+  .quote-speaker{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+    line-height: 20px;
+  }
+
+  .quote-title{
+    font-size: 12px;
+    opacity: 0.8;
+    
+    color: #0E0E0E;
+    line-height: 20px;
+  }
+
+
 
   
   
