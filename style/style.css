@@ -5,12 +5,15 @@
     font-style: normal;
     background-color: #F1F1F3;
   }
+
+  /* banner section css */
   .banner{
     width: 1200px;
     height: 560px;
     background: linear-gradient(45deg , #D0E6DC, #C8E0D8 );
     margin: 10px auto;
     display: flex;
+    padding-left: 20px;
     justify-content: space-around;
     gap: 20px;
     align-items: center;
@@ -51,3 +54,79 @@
     border-radius: 5px;
 
   }
+
+  .banner-btn:hover{
+    background-color: green;
+
+  }
+
+/* vision section css */
+
+  .vision{
+    width: 1200px;
+    margin: 20px auto;
+    
+  }
+  .vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+
+  .vision-description{
+    font-size: 12px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    line-height: 18px;
+  }
+
+  .vision-card{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .card-box-1, .card-box-2, .card-box-3{
+    width: 400px;
+    padding: 32px;
+    border-radius: 10px;
+  }
+
+  .card-box-1{
+    background: linear-gradient(45deg,#B7CEF3 100%, #5490F5 20% );
+   
+
+  }
+
+  .card-box-2{
+    background: linear-gradient(45deg, #49ce92 20%, #4adb98 100%);
+
+  }
+  .card-box-3{
+    background: linear-gradient(45deg, #f1cd78 100%, #f3d796 200%);
+
+  }
+
+  .card-box-img{
+    height: 64px;
+    width: 64px;
+  }
+
+  .card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+
+  .card-des{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: #0E0E0E;
+  }
+
+  
+  
